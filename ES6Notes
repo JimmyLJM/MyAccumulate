@@ -26,9 +26,24 @@ let 和 const........................
 # 生成器 Generators(yield,返回迭代器)、
 # 模板字符串（`${}` ）、
 # 不定参数（补充arg对象相关知识）
-# 解构 Destructuring
+# 解构 Destructuring (迭代器、数组 & 对象 ^嵌套)
+# 箭头函数 Arrow Functions （
+#              <!--  单行注释
+#               -->  “趋向于”操作符
+#               <=  小于等于
+#               =>  这又是什么？   lambda?
+      // ES5
+      var total = values.reduce(function (a, b) {
+      return a + b;
+      }, 0);
+      // ES6
+      var total = values.reduce((a, b) => a + b, 0);
+#）
 #
 #
 #
 #
-
+#
+#
+#
+#
